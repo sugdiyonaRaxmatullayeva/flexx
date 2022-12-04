@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.box{
+    width: 1000px;
+    margin: 50px;
+    border: 2px solid black;
+} 
+.box1{
+    width: 200px;
+    height: 200px;
+background-color: blue   ;
+border-radius: 5px;
+    margin: 10px;
+}
+
+.box-center {
+    display: flex;
+    justify-content: center;
+}
+
+.box-end {
+    display: flex;
+    justify-content: flex-end ;
+}
+.box-between{
+    display: flex;
+    justify-content: space-between;
+}.box-start{
+    display: flex;
+    justify-content: flex-start;
+}
